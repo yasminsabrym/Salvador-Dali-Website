@@ -135,6 +135,9 @@ text-shadow: none;
 .greytext{
   color: grey;
 }
+.redtext{
+  color: #91001f;
+}
 .sideborder{
 border-left: 2px solid #d6d6d6;
 height: fit-content;
@@ -142,3 +145,5 @@ height: fit-content;
 .bgdark{
   background-color: black;
 }
+
+/* align-items-center justify-content-around */
