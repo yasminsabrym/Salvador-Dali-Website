@@ -7,7 +7,7 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 export default class Nav extends Component {
   render() {
     return (
-      <div className="container-fluid">
+      <div className="container-fluid p-0">
         <nav className="navbar navbar-expand-lg navbar-dark ">
           {/* <div className="container"> */}
           {/* collapse start */}

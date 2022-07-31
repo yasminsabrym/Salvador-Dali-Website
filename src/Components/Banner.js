@@ -1,4 +1,4 @@
-import Banners from ".././Assets/imgs/banner.jpeg";
+import Banners from ".././Assets/imgs/banner.png";
 import logo from ".././Assets/icons/logow.png";
 
 import React, { Component } from "react";
@@ -10,19 +10,21 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 export default class Banner extends Component {
   render() {
     return (
-      <div className="container-fluid">
-        <div
-          style={{
-            backgroundImage: `url(${Banners})`,
-            height: "30%",
-            alignContent: "center",
-            justifyContent: "center",
-            justifySelf: "center",
-            alignSelf: "center",
-            color: "white",
-            textAlign: "center",
-          }}
-        >
+      <div
+        className="jumbotron-fluid"
+        style={{
+          backgroundImage: `url(${Banners})`,
+          height: "100%",
+          alignContent: "center",
+          justifyContent: "center",
+          justifySelf: "center",
+          alignSelf: "center",
+          color: "white",
+          textAlign: "center",
+          width: "100%",
+        }}
+      >
+        <div className="container-fluid">
           <div style={{ paddingTop: "3.6%", paddingBottom: "3.6%" }}>
             <h1 style={{ fontSize: 90 }}>
               SALVADOR DALI <br />

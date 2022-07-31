@@ -3,7 +3,7 @@ import Dali from ".././Assets/imgs/dali.jpeg";
 import React, { Component } from "react";
 import "../App.css";
 
-export default class Banner extends Component {
+export default class Exhibitions extends Component {
   render() {
     return (
       <div className="container mt-5 mb-5">
