@@ -4,6 +4,7 @@ import Banner from "././Components/Banner.js";
 import Museums from "././Components/Museums.js";
 import Visit from "././Components/Visit.js";
 import Exhibitions from "././Components/Exhibitions.js";
+import Collection from "././Components/Collection.js";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Museums />
       <Visit />
       <Exhibitions />
+      <Collection />
     </>
 
     // </div>

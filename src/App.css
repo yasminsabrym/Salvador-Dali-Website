@@ -15,10 +15,26 @@
   padding-left: 50px;
   color: white;
 }
+.signincard {
+  background-color: #91001f;
+  padding-right: 50px;
+  
+  padding-left: 50px;
+  color: white;
+}
 .buynow{
   background-color:transparent !important;
   color: #91001f;
   border: 1px solid #91001f;
+  border-radius: 25px;
+  padding-left: 35PX;
+  padding-right: 35PX;
+  margin-bottom: 10px;
+}
+.whiteborderbtn{
+  background-color:transparent !important;
+  color:white ;
+  border: 1px solid #fff;
   border-radius: 25px;
   padding-left: 50px;
   padding-right: 50px;
@@ -92,4 +108,15 @@ text-shadow: none;
   max-width: 500px;
   margin-top: -129px;
   margin-right: 0px;
+}
+.card{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
+.greytext{
+  color: grey;
+}
+.sideborder{
+border-left: 2px solid #d6d6d6;
 }

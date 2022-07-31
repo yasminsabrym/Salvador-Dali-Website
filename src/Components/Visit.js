@@ -17,7 +17,7 @@ export default class Banner extends Component {
               Please visit this section before your visit to know opening hours,
               ticket prices, access information, Trequenty osked questions, etc.
             </p>
-            <button className="btn buynow ms-md-5">Buy Tickets</button>
+            <button className="btn buynow ">PLAN YOUR VISIT</button>
           </div>
           <div className="col-md-3 ms-5 me-5">
             <img src={Alabaster} width={300} height={400} />
