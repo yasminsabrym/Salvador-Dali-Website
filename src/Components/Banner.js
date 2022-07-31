@@ -3,9 +3,6 @@ import logo from ".././Assets/icons/logow.png";
 
 import React, { Component } from "react";
 import "../App.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
 export default class Banner extends Component {
   render() {
