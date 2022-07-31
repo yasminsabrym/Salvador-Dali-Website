@@ -12,7 +12,7 @@ export default class News extends Component {
           <div className="col-md-3 ms-5 me-5 col-8 mt-5 borderedbox ">
             <img src={Dali} width={280} height={280} />
             <p className="redtext mb-0 mt-2">10 December 2021</p>
-            <h6 className="mt-md-2 mt-3 ">Amazon Price Tracker</h6>
+            <h6 className="mt-md-2 mt-3 ">THIS IS THE TITLE</h6>
             <p className="mt-md-3 mt-3">
               Pleasure, But Because Those Who Do not Know How To Pursue.
             </p>
@@ -20,7 +20,7 @@ export default class News extends Component {
           <div className="col-md-3 ms-5 me-5 col-8 mt-5 borderedbox ">
             <img src={Dali} width={280} height={280} />
             <p className="redtext mb-0 mt-2">10 December 2021</p>
-            <h6 className="mt-md-2 mt-3 ">Amazon Price Tracker</h6>
+            <h6 className="mt-md-2 mt-3 ">THIS IS THE TITLE</h6>
             <p className="mt-md-3 mt-3">
               But I Must Explain To You How All This mistaken Idea Denouncing.
             </p>
@@ -28,7 +28,7 @@ export default class News extends Component {
           <div className="col-md-3 ms-5 me-5 col-8 mt-5 borderedbox ">
             <img src={Dali} width={280} height={280} />
             <p className="redtext mb-0 mt-2">10 December 2021</p>
-            <h6 className="mt-md-2 mt-3 ">Amazon Price Tracker</h6>
+            <h6 className="mt-md-2 mt-3 ">THIS IS THE TITLE</h6>
             <p className="mt-md-3 mt-3">
               I Will Give You A Complete Account Of the System.
             </p>
