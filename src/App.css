@@ -137,6 +137,7 @@ text-shadow: none;
 }
 .sideborder{
 border-left: 2px solid #d6d6d6;
+height: fit-content;
 }
 .bgdark{
   background-color: black;

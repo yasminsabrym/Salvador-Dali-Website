@@ -6,6 +6,7 @@ import Visit from "././Components/Visit.js";
 import Exhibitions from "././Components/Exhibitions.js";
 import Collection from "././Components/Collection.js";
 import VisitMuseum from "././Components/VisitMuseum.js";
+import Foundation from "././Components/Foundation.js";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Exhibitions />
       <Collection />
       <VisitMuseum />
+      <Foundation />
     </>
 
     // </div>
