@@ -7,7 +7,7 @@ export default class Exhibitions extends Component {
   render() {
     return (
       <div className="container mt-5 mb-5">
-        <div className="row ms-4 ps-5">
+        {/* <div className="row ms-4 ps-5">
           <h2 className="p-0">Exhibitions</h2>
           <br />
 
@@ -46,7 +46,7 @@ export default class Exhibitions extends Component {
         </div>
         <div className="col-md-12 text-center mb-5">
           <button className="btn buynow mt-5 me-4 ms-md-5">VIEW MORE</button>
-        </div>
+        </div> */}
       </div>
     );
   }

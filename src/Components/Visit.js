@@ -8,7 +8,7 @@ export default class Banner extends Component {
     return (
       <div className="container mt-5 mb-5">
         <div className="row">
-          <div className="col-md-3 ms-5 me-5 ps-5 ">
+          {/* <div className="col-md-3 ms-5 me-5 ps-5 ">
             <h2>Visit</h2>
             <br />
             <h6>EVERYTHING YOU NEED TO KNOW BEFORE VISITING THE MUSEUM</h6>
@@ -24,7 +24,7 @@ export default class Banner extends Component {
           </div>
           <div className="col-md-3 ms-5">
             <img src={Dali} width={260} height={260} />
-          </div>
+          </div> */}
         </div>
       </div>
     );

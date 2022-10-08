@@ -8,7 +8,7 @@ export default class Collection extends Component {
   render() {
     return (
       <div className="container mt-5 mb-5">
-        <div className="row">
+        {/* <div className="row">
           <div className="col-md-4 ms-4 me-5 ps-5 ">
             <h2>The Collection</h2>
             <br />
@@ -29,7 +29,7 @@ export default class Collection extends Component {
 
             <img className="  me-5" src={SCULPTOR} width={250} height={300} />
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }

@@ -42,7 +42,6 @@ export default class VisitMuseum extends Component {
             <button className="btn whiteborderbtn mt-5 me-4 ms-md-5">
               START VIRTUAL TOUR
             </button>
-            {/* <img src={Banners} style={{ width: "60%" }} /> */}
           </div>
         </div>
       </div>

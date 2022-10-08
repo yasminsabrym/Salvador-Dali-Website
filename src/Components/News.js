@@ -6,7 +6,7 @@ export default class News extends Component {
     return (
       <div className="container">
         <div className="row mt-md-5 mt-4">
-          <h2 className="mt-md-5 mt-2 mb-3 ms-5 ">Breaking news</h2>
+          {/* <h2 className="mt-md-5 mt-2 mb-3 ms-5 ">Breaking news</h2> */}
         </div>
         <div className="row  flex-wrap">
           <div className="col-md-3 ms-5 me-5 col-8 mt-5 borderedbox ">

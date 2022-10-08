@@ -8,11 +8,11 @@ export default class Foundation extends Component {
     return (
       <div className="container mt-5 mb-5">
         <div className="row">
-          <h2 className="ms-5 mb-5 mt-5">The Dali Foundation</h2>
+          {/* <h2 className="ms-5 mb-5 mt-5">The Dali Foundation</h2> */}
 
           <br />
 
-          <div className="col-md-3 ms-5 me-5">
+          {/* <div className="col-md-3 ms-5 me-5">
             <img src={Alabaster} width={300} height={400} />
           </div>
           <div className="col-md-3 ms-5 me-5 ps-5 ">
@@ -29,7 +29,7 @@ export default class Foundation extends Component {
               about the centenary year of Salvador Dali's birth,
               <br /> a list of publications, and a list of the concerts
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     );

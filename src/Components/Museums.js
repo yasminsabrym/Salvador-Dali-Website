@@ -63,7 +63,7 @@ function Museums() {
   return (
     <div className="py-2 mt-5 container center ">
       <h2 className="ms-5 ps-5">Museums</h2>
-      <div className="accordion mb-5 mt-4" id="accordionExample">
+      {/* <div className="accordion mb-5 mt-4" id="accordionExample">
         {hiddenTexts.map((item, i) => {
           return (
             <div className="accordion-item mb-5 py-0" key={hiddenTexts.item}>
@@ -103,7 +103,7 @@ function Museums() {
             </div>
           );
         })}
-      </div>
+      </div> */}
     </div>
   );
 }

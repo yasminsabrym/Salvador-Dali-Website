@@ -11,7 +11,9 @@ export default class Nav extends Component {
         <nav className="navbar navbar-expand-lg navbar-dark ">
           {/* <div className="container"> */}
           {/* collapse start */}
-          <a className="navbar-brand" href="#" />
+          <a className="navbar-brand" href="#">
+            <img src={logo} style={{ height: 50, width: 120 }} />
+          </a>
           <button
             className="navbar-toggler"
             type="button"
@@ -27,9 +29,7 @@ export default class Nav extends Component {
             {/* collapse end */}
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-0 ms-md-5">
               <li className="nav-item">
-                <a className="nav-link " href="#">
-                  <img src={logo} style={{ height: 50, width: 120 }} />
-                </a>
+                <a className="nav-link " href="#"></a>
               </li>
 
               <li className="nav-item">

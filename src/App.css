@@ -147,3 +147,15 @@ height: fit-content;
 }
 
 /* align-items-center justify-content-around */
+.bgdark{
+  background-color: black;
+}
+.whitecol{
+  color:  white !important;
+  font-size: 14px;
+ 
+}
+a{
+  text-decoration: none !important;
+  color: white !important;
+}
