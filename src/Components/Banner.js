@@ -1,5 +1,5 @@
 import Banners from ".././Assets/imgs/newbg.png";
-import logo from ".././Assets/icons/logow.png";
+import logo from ".././Assets/icons/logo.svg";
 
 import React, { Component } from "react";
 import "../App.css";

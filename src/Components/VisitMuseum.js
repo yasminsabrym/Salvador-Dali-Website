@@ -1,8 +1,4 @@
-import Alabaster from ".././Assets/imgs/PAINTING.jpg";
-import Dali from ".././Assets/imgs/dali.jpeg";
-import SCULPTOR from ".././Assets/imgs/SCUPLTOR.jpg";
 import Banners from ".././Assets/imgs/banner3.png";
-import logo from ".././Assets/icons/logow.png";
 
 import React, { Component } from "react";
 import "../App.css";

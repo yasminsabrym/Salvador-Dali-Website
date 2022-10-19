@@ -1,4 +1,4 @@
-import logo from ".././Assets/icons/logow.png";
+import logo from ".././Assets/icons/logo.svg";
 import burger from ".././Assets/icons/burger.svg";
 import exit from ".././Assets/icons/exit.svg";
 
