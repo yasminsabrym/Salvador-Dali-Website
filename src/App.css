@@ -15,7 +15,15 @@
   padding-left: 50px;
   color: white;
 }
-.signincard {
+.signin:hover{
+  background-color: #fff;
+  padding-right: 50px;
+  /* margin-top: -5px; */
+  border-radius: 25px;
+  padding-left: 50px;
+  color: #91001f;
+}
+.signincardd {
   background-color: #91001f;
   padding-right: 50px;
   
@@ -27,17 +35,17 @@
   color: #91001f;
   border: 1px solid #91001f;
   border-radius: 25px;
-  padding-left: 35PX;
-  padding-right: 35PX;
+  /* padding-left: 35PX;
+  padding-right: 35PX; */
   margin-bottom: 10px;
 }
 .buynow:hover{
-  background-color:transparent !important;
-  color: #91001f;
-  border: 1px solid #91001f;
+  background-color:#91001f !important;
+  color: #FFF;
+  border: 1px solid #fff;
   border-radius: 25px;
-  padding-left: 35PX;
-  padding-right: 35PX;
+  /* padding-left: 35PX;
+  padding-right: 35PX; */
   margin-bottom: 10px;
 }
 .whiteborderbtn{
@@ -45,17 +53,17 @@
   color:white ;
   border: 1px solid #fff;
   border-radius: 25px;
-  padding-left:35PX;
-  padding-right:35PX;
+  /* padding-left:35PX;
+  padding-right:35PX; */
   margin-bottom: 10px;
 }
 .whiteborderbtn:hover{
-  background-color:transparent !important;
-  color:rgb(255, 255, 255) ;
+  background-color:#fff !important;
+  color:#91001f ;
   border: 1px solid #fff;
   border-radius: 25px;
-  padding-left:35PX;
-  padding-right:35PX;
+  /* padding-left:35PX;
+  padding-right:35PX; */
   margin-bottom: 10px;
 }
 .collapse-css-transition {
@@ -127,10 +135,26 @@ text-shadow: none;
   margin-top: -129px;
   margin-right: 0px;
 }
-.card{
-  border: 1px solid black;
-  display: flex;
-  flex-direction: row;
+.cardd{
+  border: 1px solid black !important;
+  /* border-radius:10px; */
+  margin-top: 20px;
+
+
+}
+.cardd:hover{
+  background-color: #91001f;
+  color: white;
+}
+.cardd:hover .buynow  {
+  background-color:#91001f !important;
+  color: #FFF;
+  border: 1px solid #fff;
+  border-radius: 25px;
+
+}
+.cardd:hover .greytext{
+  color: #FFF;
 }
 .greytext{
   color: grey;
@@ -145,10 +169,22 @@ height: fit-content;
 .bgdark{
   background-color: black;
 }
+/* .dropdown-menu{
+  background-color: black !important;
+  color: #FFF !important;
+  border-radius: 15px;
+} */
+/* .dropdown-item {
+  background-color: black !important;
+  color: #FFF !important;
+  text-decoration: none !important;
 
-/* align-items-center justify-content-around */
-.bgdark{
-  background-color: black;
+} */
+
+.dropdown-item:hover {
+  background-color: black !important;
+  color: #FFF !important;
+  
 }
 .whitecol{
   color:  white !important;
@@ -158,4 +194,32 @@ height: fit-content;
 a{
   text-decoration: none !important;
   color: white !important;
+}
+/* check if it works for all buttons when clicked */
+.navbar-dark .navbar-toggler {
+  color: transparent;
+  
+}
+*:focus  {
+box-shadow: none !important;
+outline: none;
+
+}
+
+a.dropdown-item{
+  color: black !important;
+}
+.nav-link{
+  margin-top: 10px !important;
+}
+.navbar-toggler-icon {
+  background-image: none !important;
+}
+.navbar-toggler{
+  border: none !important;
+}
+.quote{
+  background-color: rgb(205,205,205,0.5);
+  border-radius: 5px;
+/* border:#91001f double 5px */
 }

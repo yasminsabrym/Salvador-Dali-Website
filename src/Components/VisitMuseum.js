@@ -39,7 +39,7 @@ export default class VisitMuseum extends Component {
                 className="row "
               ></div>
             </div>
-            <button className="btn whiteborderbtn mt-5 me-4 ms-md-5">
+            <button className="btn px-md-5  align-items-center align-content-center align-self-center whiteborderbtn mt-5 ">
               START VIRTUAL TOUR
             </button>
           </div>

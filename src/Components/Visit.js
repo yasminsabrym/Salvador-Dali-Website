@@ -7,24 +7,27 @@ export default class Banner extends Component {
   render() {
     return (
       <div className="container mt-5 mb-5">
-        <div className="row">
-          {/* <div className="col-md-3 ms-5 me-5 ps-5 ">
-            <h2>Visit</h2>
-            <br />
-            <h6>EVERYTHING YOU NEED TO KNOW BEFORE VISITING THE MUSEUM</h6>
-            <br />
-            <p>
+        <div className="row justify-content-around">
+          <div className="col-md-3 col-12 mt-5 align-items-center align-content-center align-self-center text-center text-md-start">
+            <h2 className="mb-5">Visit</h2>
+
+            <h6 className="mb-4">
+              EVERYTHING YOU NEED TO KNOW BEFORE VISITING THE MUSEUM
+            </h6>
+            <p className="mb-5">
               Please visit this section before your visit to know opening hours,
               ticket prices, access information, Trequenty osked questions, etc.
             </p>
-            <button className="btn buynow ">PLAN YOUR VISIT</button>
+            <button className="btn buynow col-6 col-md-11 mb-md-5 mb-4">
+              PLAN YOUR VISIT
+            </button>
           </div>
-          <div className="col-md-3 ms-5 me-5">
-            <img src={Alabaster} width={300} height={400} />
+          <div className="col-md-3 col-12 mt-5 align-items-center align-content-center align-self-center text-center text-md-start">
+            <img src={Alabaster} width={270} height={400} />
           </div>
-          <div className="col-md-3 ms-5">
+          <div className="col-md-3 col-12 mt-5 align-items-center align-content-center align-self-center text-center text-md-start">
             <img src={Dali} width={260} height={260} />
-          </div> */}
+          </div>
         </div>
       </div>
     );

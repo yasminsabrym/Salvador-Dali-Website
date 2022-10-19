@@ -8,50 +8,31 @@ export default class Banner extends Component {
   render() {
     return (
       <div
-        className="container-fluid jumbotron-fluid "
+        className="container-fluid pt-5 pb-4 jumbotron-fluid bg-dark "
         style={{
           backgroundImage: `url(${Banners})`,
-          alignContent: "center",
-          justifyContent: "center",
-          justifySelf: "center",
-          alignSelf: "center",
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+
           color: "white",
           textAlign: "center",
           height: "100%",
+          // backgroundRepeat: "no-repeat",
         }}
       >
-        {/* <div style={{ paddingTop: "3.6%", paddingBottom: "3.6%" }}>
-          <h1 style={{ fontSize: 90 }}>
-            SALVADOR DALI <br />
-            THEATRE-MUSEUM
-          </h1>
-          <div
-            style={{
-              textAlign: "center",
-              justifyContent: "center",
-              justifySelf: "center",
-              alignContent: "center",
-              alignSelf: "center",
-            }}
-            className="row "
-          >
-            <h6
-              style={{
-                textAlign: "center",
-                justifySelf: "center",
-
-                alignSelf: "center",
-              }}
-              className=" col-md-3 col-6 text-center bg-black p-1"
-            >
-              "It is not me who is the clown, but the monstrously cynical and so
-              unconsciously naive society, which plays the game of seriousness
-              in order better to hide its madness."
-            </h6>
+        <div className="row justify-content-center text-center">
+          <div className="col-md-4  pt-5 mt-3 col-12">
+            <h1 style={{ fontSize: "430%" }}>SALVADOR DALI THEATRE-MUSEUM</h1>
+            <div className="row justify-content-center">
+              <h6 className=" col-md-7 col-9 text-center text-white quote mt-4 p-2">
+                "It is not me who is the clown, but the monstrously cynical and
+                so unconsciously naive society, which plays the game of
+                seriousness in order better to hide its madness."
+              </h6>
+            </div>
+            <img src={logo} style={{ height: 50, width: 120 }} />
           </div>
-          <img src={logo} style={{ height: 50, width: 120 }} />
-        </div> */}
-        {/* <img src={Banners} style={{ width: "60%" }} /> */}
+        </div>
       </div>
     );
   }
