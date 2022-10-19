@@ -11,7 +11,7 @@ export default class Foundation extends Component {
           {/* <h2 className="ms-5 mb-5 mt-5">The Dali Foundation</h2> */}
 
           <div className="col-md-3  col-12 mt-5 align-items-center align-content-center align-self-center text-center ">
-            <img src={Alabaster} width={250} height={400} />
+            <img src={Alabaster} width={270} height={400} />
           </div>
           <div className="col-md-3 text-md-start col-12 mt-5 align-items-center align-content-center align-self-center text-center ">
             <p>
