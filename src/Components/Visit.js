@@ -1,5 +1,5 @@
 import Alabaster from ".././Assets/imgs/alabaster.png";
-import Dali from ".././Assets/imgs/dali.jpeg";
+import Dali from ".././Assets/imgs/dali.jpg";
 import React, { Component } from "react";
 import "../App.css";
 
