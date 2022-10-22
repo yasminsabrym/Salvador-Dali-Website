@@ -6,10 +6,10 @@ import "../App.css";
 export default class Banner extends Component {
   render() {
     return (
-      <div className="container mt-5 mb-5">
+      <div className="container mt-2 mb-5">
         <div className="row justify-content-around">
-          <div className="col-md-3 col-12 mt-5 align-items-center align-content-center align-self-center text-center text-md-start">
-            <h2 className="mb-5">Visit</h2>
+          <div className="col-md-3 col-12 mt-2 align-items-center align-content-center align-self-center text-center text-md-start">
+            <h2 className="mb-4">Visit</h2>
 
             <h6 className="mb-4">
               EVERYTHING YOU NEED TO KNOW BEFORE VISITING THE MUSEUM
@@ -26,7 +26,7 @@ export default class Banner extends Component {
             <img src={Alabaster} width={270} height={400} />
           </div>
           <div className="col-md-3 col-12 mt-5 align-items-center align-content-center align-self-center text-center text-md-start">
-            <img src={Dali} width={260} height={260} />
+            <img src={Dali} width={270} height={260} />
           </div>
         </div>
       </div>

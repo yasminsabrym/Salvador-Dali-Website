@@ -1,16 +1,18 @@
 import React, { Component } from "react";
-import Dali from ".././Assets/imgs/figures.jpg";
+import w1 from ".././Assets/imgs/work1.jpg";
+import w2 from ".././Assets/imgs/work2.jpg";
+import w3 from ".././Assets/imgs/work3.jpg";
 
 export default class News extends Component {
   render() {
     return (
       <div className="container">
-        <div className="row mt-md-5 mt-4">
-          {/* <h2 className="mt-md-5 mt-2 mb-3 ms-5 ">Breaking news</h2> */}
-        </div>
-        <div className="row justify-content-around flex-wrap">
+        <div className="row justify-content-around flex-wrap ms-md-0">
+          <h2 className="text-md-start text-center mt-2 mb-3 ms-md-5">
+            Breaking news
+          </h2>
           <div className="col-md-3 p-0 m-0  col-12 mt-5 align-items-center align-content-center align-self-center text-center  ">
-            <img src={Dali} width={"80%"} height={300} />
+            <img src={w1} width={264} height={264} />
             <p className="redtext mb-0 mt-2">10 December 2021</p>
             <h6 className="mt-md-2 mt-3 ">THIS IS THE TITLE</h6>
             <p className="mt-md-3 mt-3">
@@ -18,7 +20,7 @@ export default class News extends Component {
             </p>
           </div>
           <div className="col-md-3 p-0 m-0 align-items-center align-content-center align-self-center text-center col-12 mt-5  ">
-            <img src={Dali} width={"80%"} height={300} />
+            <img src={w2} width={264} height={264} />
             <p className="redtext mb-0 mt-2">10 December 2021</p>
             <h6 className="mt-md-2 mt-3 ">THIS IS THE TITLE</h6>
             <p className="mt-md-3 mt-3">
@@ -26,7 +28,7 @@ export default class News extends Component {
             </p>
           </div>
           <div className="col-md-3 p-0 m-0 align-items-center align-content-center align-self-center text-center col-12 mt-5  ">
-            <img src={Dali} width={"80%"} height={300} />
+            <img src={w3} width={264} height={264} />
             <p className="redtext mb-0 mt-2">10 December 2021</p>
             <h6 className="mt-md-2 mt-3 ">THIS IS THE TITLE</h6>
             <p className="mt-md-3 mt-3">
@@ -35,10 +37,9 @@ export default class News extends Component {
           </div>
         </div>
         <div className="row center  align-items-center align-content-center align-self-center text-center justify-content-around">
-          <button className="col-md-3 col-6 btn text-center buynow mt-5 mb-5">
+          <button className="col-md-2 col-6 btn text-center buynow mt-5 mb-5">
             DISCOVER MORE
           </button>
-          {/* <button className="col-md-2  btn buynow ">DISCOVER MORE</button> */}
         </div>
       </div>
     );
